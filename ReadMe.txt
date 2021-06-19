@@ -1,6 +1,7 @@
 ***DEPENDENCIES***
 ProgressBars: https://github.com/EthanPeacock/progressBars
 Mythic Notifications: https://github.com/JayMontana36/mythic_notify
+Lift Car Off Ground: https://forum.cfx.re/t/free-lift-car-off-ground-standalone/2808217
 
 [FR]Etapes D'Installations
 
