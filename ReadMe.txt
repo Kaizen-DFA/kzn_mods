@@ -1,3 +1,6 @@
+***DEPENDENCIES***
+ProgressBars: https://github.com/EthanPeacock/progressBars
+
 [FR]Etapes D'Installations
 
 	- Mettre le dossier dans vos ressources
