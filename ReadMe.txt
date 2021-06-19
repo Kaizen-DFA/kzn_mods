@@ -5,7 +5,7 @@ Mythic Notifications: https://github.com/JayMontana36/mythic_notify
 [FR]Etapes D'Installations
 
 	- Mettre le dossier dans vos ressources
-	- Ajouter 'start kaizen_xenon' ou 'ensure kaizen_xenon' a votre server.cfg
+	- Ajouter 'start kaizen_mods' ou 'ensure kaizen_mods' a votre server.cfg
 	- Importer le SQL a votre base de données
 
 Pour des questions: Kaizen#1769
@@ -13,7 +13,7 @@ Pour des questions: Kaizen#1769
 [EN]Install Instructions:
 
 	- Add folder to your resources.
-	- Add 'start kaizen_xenon' or 'ensure kaizen_xenon' to your server.cfg.
+	- Add 'start kaizen_mods' or 'ensure kaizen_mods' to your server.cfg.
 	- Import SQL to your database.
 
 For Questions: Kaizen#1769
