@@ -365,3 +365,23 @@ ESX.RegisterUsableItem('win4', function(source)
 	TriggerClientEvent('kaizen_win:win4', source)
     TriggerClientEvent('mythic_notify:client:SendAlert', source, { type = 'inform', text = 'Vitre Teintées Niv. 3 Installé 💡'})
 end)
+
+RegisterServerEvent('kaizen_mods:refreshOwnedVehicle')
+AddEventHandler('kaizen_mods:refreshOwnedVehicle', function(vehicleProps)
+	local xPlayer = ESX.GetPlayerFromId(source)
+
+	MySQL.Async.fetchAll('SELECT vehicle FROM owned_vehicles WHERE plate = @plate', {
+		['@plate'] = vehicleProps.plate
+	}, function(result)
+		if result[1] then
+			local vehicle = json.decode(result[1].vehicle)
+
+			if vehicleProps.model == vehicle.model then
+				MySQL.Async.execute('UPDATE owned_vehicles SET vehicle = @vehicle WHERE plate = @plate', {
+					['@plate'] = vehicleProps.plate,
+					['@vehicle'] = json.encode(vehicleProps)
+				})
+			end
+		end
+	end)
+end)
