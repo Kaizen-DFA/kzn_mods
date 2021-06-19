@@ -1,7 +1,3 @@
-------------------------
-----Kaizen#1769----
-------------------------
-
 INSERT INTO items (`name`,`label`,`weight`,`rare`,`can_remove`) VALUES
 ('xenonsbleu', 'Blue Xenons', 0, 0, 1),
 ('xenonsbleuelect', 'Electric Blue Xenons', 0, 0, 1),
@@ -22,7 +18,7 @@ INSERT INTO items (`name`,`label`,`weight`,`rare`,`can_remove`) VALUES
 ('engine2', 'Engine Lvl. 1', 0, 0, 1),
 ('engine3', 'Engine Lvl. 2', 0, 0, 1),
 ('engine4', 'Engine Lvl. 3', 0, 0, 1),
-('engine5', 'Engine Lvl. 4', 0, 0, 1);
+('engine5', 'Engine Lvl. 4', 0, 0, 1),
 ('brakes1', 'Original Brakes', 0, 0, 1),
 ('brakes2', 'Brakes Lvl. 1', 0, 0, 1),
 ('brakes3', 'Brakes Lvl. 2', 0, 0, 1),
