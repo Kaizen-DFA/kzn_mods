@@ -1,6 +1,6 @@
 ***DEPENDENCIES***
-ProgressBars: GitHub - EthanPeacock/progressBars
-Mythic Notifications: GitHub - JayMontana36/mythic_notify: A simple FiveM notification resource
+ProgressBars: https://github.com/EthanPeacock/progressBars
+Mythic Notifications: https://github.com/JayMontana36/mythic_notify
 
 [FR]Etapes D'Installations
 
